@@ -1,8 +1,9 @@
 ﻿body {
     background-image: url('AllJojos.png');   
     background-repeat: no-repeat;
-    background-position: top left;
-    background-size: cover cover;
+    background-position: top left fixed;
+    min-width: 100%;
+    min-height: 100%;
     overflow: hidden;
 }
 
