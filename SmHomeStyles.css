@@ -1,0 +1,78 @@
+﻿body {
+    background-image: url('allJojos.png');   
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover cover;
+    overflow: scroll;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding-top: 10%;
+    position: relative;
+}
+
+nav {
+    font-size: 1.3em;
+    font-family: Rockwell;
+    color: white;
+    width: 100%;
+}
+
+nav ul {
+    padding-left: 0.5em;
+    list-style-type: none; 
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    padding: 1em 0.7em;
+    border: groove 0.5em;
+    border-color: #cccccc;
+    background-color: black;
+    text-align:center;
+    width: 200px;
+    clear: left;
+}
+
+li a, .dropBtn {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Rockwell;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover, .dropMenu:hover .dropBtn {
+    background-color: #666666;
+}
+
+li.dropMenu {
+    display: inline-block;
+}
+
+.dropContent {
+    display: none;
+    position: relative;
+    background-color: white;
+    width: 200px;
+}
+
+.dropContent a {
+    color: black;
+    font-size: 1em;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropContent a:hover {
+    background-color: gray;
+}
+
+.dropMenu:hover .dropContent {
+    display: block;
+}
