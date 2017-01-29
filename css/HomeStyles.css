@@ -2,8 +2,7 @@
     background-image: url('AllJojos.png');   
     background-repeat: no-repeat;
     background-position: top left fixed;
-    min-width: 100%;
-    min-height: 100%;
+    background-position: cover cover;
     overflow: hidden;
 }
 
